@@ -49,7 +49,7 @@ export default async function CartPage() {
           <h3 className="text-xl font-bold">Total</h3>
           <p className="text-xl">${calculateTotal(cartItems)}</p>
         </div>
-        <OrderButton cartItems={cartItems} />
+        <OrderButton />
       </div>
     </div>
   );
